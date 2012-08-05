@@ -5,7 +5,7 @@
   "author_homepage": "http://mkeas.org",
   "keywords" : ["blog", "mongodb", "socket.io"],
   "version" : "0.1.0",
-  "homepage" : "<a href='http://matthiasak.github.com/SocketBlog/'>http://matthiasak.github.com/SocketBlog/</a",
+  "homepage" : "<a href='http://github.com/matthiasak/SocketBlog/'>http://github.com/matthiasak/SocketBlog/</a",
   "dependencies": {
     "express": "2.5.x",
     "cookie": "0.0.4",
