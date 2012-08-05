@@ -1,5 +1,5 @@
 var config = {
-	session_secret: "heliomaticsuperflyautomaticryptonite",
+	session_secret: "alksjndajndkajndkajdnaksjdnsakjandkjasndkasjdnsakdjnsadk",
 	admins: ["matthiasak@gmail.com"],
 	http_port: 80,
 	google_return_url: 'http://mkeas.org/auth/google/return',
