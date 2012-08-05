@@ -1,0 +1,99 @@
+!!! 5
+html
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=EmulateIE7; IE=EmulateIE9')
+        meta(name='description', content='Established (born) 1988 to Walk Code and Fly Free -- Metaphysically Wrinklefree.')
+        meta(name='keywords', content='matt keas, interactive design, interactive development, developer, mobile, iphone developer, ipad developer, android developer, mac os developer, linux developer, nodejs, node.js, html5, backbone, underscore, jquery, javascript, computer security, network security, application security')
+        meta(name='author', content='Matt Keas')
+        meta(name="viewport", content="width=1024, user-scalable=no, maximum-scale=1.01")
+        meta(name="google-site-verification", content="KTmZUN2HhXKgHMokC386pl97Iyy0BkZ3v3CCtShFLYw")
+        title #{title}
+        link(rel="stylesheet", href="/css/base_dist.css", type="text/css", media="all")
+        script(src='http://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js')
+        //
+            script(src='js/less-1.3.0.min.js')
+            script
+                less.watch();
+        
+    body
+        .content
+            .column.about.lifestream.scroll
+                .scrollbar
+                    .track
+                        .thumb
+                            .end
+                .viewport
+                    .overview
+                        .logo
+                            i.icon-trophy
+                        .logo-type
+                            | Metaphysically
+                            br
+                            | Wrinklefree
+                        ul.menu-buttons
+                            li.icon-linkedin-sign 
+                                a(href='http://www.linkedin.com/profile/view?id=75673225&trk=tab_pro', target='+blank') About Me
+                            li.icon-trophy 
+                                a(href='http://resume.linkedinlabs.com/7pbtcrgv.pdf', target='+blank') Resume
+                        ul.flip
+                            li
+                                img(src='https://lh5.googleusercontent.com/-B836jCU0VKA/TxJIb1iXo6I/AAAAAAAABvo/a00imBHD2UQ/s720/DSC00557.JPG').bordered
+                            li
+                                h3 Greetings! I'm Matt.
+                                p Conscientious developer extraordinaire... and Metaphysically Wrinklefree code walker.
+                                .hr.trophy
+                            li
+                                h3 I build web applications
+                            li.icon-ok Node.js, Python, and PHP foundations
+                            li.icon-ok Redis and Cluster roofing
+                            li.icon-ok HTML5 / CSS3 / LESSCSS scaffolding and siding
+                            li.icon-ok Rich javascript windows and embellishments: Backbone.js, Underscore.js, jQuery, jQuery Mobile, Ender.js, Socket.IO, Mustache
+                            li
+                                .hr.trophy
+                            li
+                                h3 And I build native applications
+                            li.icon-ok Titanium Appcelerator (iPhone/iPad/Android Mobile, Mac OS X, Linux, Windows)
+                            li.icon-ok Native Objective-C (iPhone/iPad, Mac OS X)
+                            li.icon-ok Python & Java
+                            li
+                                .hr.trophy
+                            li
+                                h3 I like computer security
+                            li.icon-ok OAuth v2
+                            li.icon-ok Cryptographic systems
+                            li.icon-ok Strong secure paradigms
+                            li
+                                .hr.trophy
+                            li
+                                h3 And I like making fast programs 
+                                    i faster
+                            li.icon-ok High performance server-side code
+                            li.icon-ok Smart memory use and maximized I/O efficiency
+                            li.icon-ok Modular caching, currying (mmm...), and clean code reuse
+                            li
+                                .hr.trophy
+                            li
+                                h3 Find me at my local park, rock wall, or watering hole in Houston!
+                                #map
+                            li
+                                .hr.trophy
+            .column.blog.scroll
+                .scrollbar
+                    .track
+                        .thumb
+                            .end
+                .viewport
+                    .overview
+                        h2 Blog Roller
+                        .hr.down
+                        ul.flip
+            .column.article.scroll
+                .scrollbar
+                    .track
+                        .thumb
+                            .end
+                .viewport
+                    .overview
+        script
+            head.js("http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js", "/socket.io/socket.io.js", "/js/modestmaps.min.js", "/js/stamen.js", "/js/lodash.js", "/js/app.js")

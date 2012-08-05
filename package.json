@@ -1,0 +1,20 @@
+{
+  "name": "SocketBlog",
+  "description": "A blog that uses MongoDB and Websockets to deliver a single-page webapp which dynamically renders blog posts to the screen with client-side templates.",
+  "author": "Matthew Keas <matthiasak@gmail.com>",
+  "author_homepage": "http://mkeas.org",
+  "keywords" : ["blog", "mongodb", "socket.io"],
+  "version" : "0.1.0",
+  "homepage" : "<a href='http://matthiasak.github.com/SocketBlog/'>http://matthiasak.github.com/SocketBlog/</a",
+  "dependencies": {
+    "express": "2.5.x",
+    "cookie": "0.0.4",
+    "gzippo": "0.1.7",
+    "jade": "0.26.3",
+    "mongodb": "1.0.x",
+    "passport": "0.1.x",
+    "passport-google": "0.2.x",
+    "socket.io": "0.9.6"
+  },
+  "engine": "node >= 0.8.5"
+}
