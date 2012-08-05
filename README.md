@@ -49,5 +49,5 @@ var config = {
 exports.options = config;
 ```
 
-Then you open a browser on [http://127.0.0.1:80/](http://127.0.0.1:80/) to see it running. Up to you to modify ```views/index.jade``` ad associated CSS and Javascript until it fits your needs.
+Then you open a browser on [http://127.0.0.1:80/](http://127.0.0.1:80/) to see it running. Up to you to modify ```views/index.jade``` and associated CSS and Javascript until it fits your needs.
 
