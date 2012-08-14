@@ -118,7 +118,8 @@ sio.sockets.on('connection', function(socket){
             update(null, db);
         }
     });
-    socket.on('editPosts', function(){
+    socket.on('editPosts', function(args){
+        console.log(args);
         if(!ensureAuthenticatedWS(this)) return;
 
         var title = args.title,
