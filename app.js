@@ -119,7 +119,6 @@ sio.sockets.on('connection', function(socket){
         }
     });
     socket.on('editPosts', function(args){
-        console.log(args);
         if(!ensureAuthenticatedWS(this)) return;
 
         var title = args.title,
@@ -167,7 +166,7 @@ sio.sockets.on('connection', function(socket){
             });
         }
     });
-    socket.on('removePosts', function(){
+    socket.on('removePosts', function(_id){
         if(!ensureAuthenticatedWS(this)) return;
 
         db.open(function(err, db) {
