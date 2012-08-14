@@ -7,6 +7,9 @@ var express = require('express'),
     io = require('socket.io'),
     sio,
 
+    // underscore
+    _ = require('underscore'),
+
     // load config options
     config = require('./config/config.js').options,
 
